@@ -1,0 +1,35 @@
+# Certificados e chaves
+certs/server.crt
+certs/server.key
+
+# Pycache e compilados
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Ambientes virtuais
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Logs e temporários
+logs/
+*.log
+.pytest_cache/
+
+# Dados de teste
+test_data/
