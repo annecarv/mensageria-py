@@ -1,4 +1,4 @@
-# Mensageria Segura Multi-Cliente
+# Mensageria
 
 Sistema de chat criptografado onde múltiplos clientes trocam mensagens através de um servidor central com segurança end-to-end.
 
@@ -140,30 +140,21 @@ seguranca_final/
 | **Forward Secrecy** | ECDHE (P-256) | Sessões antigas protegidas mesmo se RSA vazar |
 | **Anti-Replay** | Contador monotônico | Impede reenvio de mensagens capturadas |
 
----
+----
 
-## Troubleshooting
+##  Link do Vídeo:
 
-### "Connection refused" ao conectar cliente
-- Verifique se o servidor está rodando
-- Verifique se está na pasta `src/`
+https://drive.google.com/file/d/1bViqEkbI2c3VQBeolFu0TEpgOhmQw1kc/view?usp=sharing
 
-### "Certificado não encontrado"
-- Execute `python init_certs.py` na pasta `src/` ou simplesmente inicie o servidor (ele gera automaticamente)
+----
 
-### "ModuleNotFoundError: No module named 'cryptography'"
-- Execute: `pip install cryptography`
+## ✨ Créditos ✨
 
-### ID do destinatário inválido
-- O ID deve ter exatamente 32 caracteres hexadecimais
-- Copie o ID completo que aparece nos logs do servidor ou do cliente
+Desenvolvido por:
 
----
+**Maria Beatriz**
+**Luana Stanz**
+**Anne Carvalho**
 
-## Documentação Técnica
 
-Para detalhes sobre a implementação criptográfica, consulte:
-- [documentacao-criptografia.md](documentacao-criptografia.md) - Detalhes dos algoritmos
-- [documentacao-protocolo.md](documentacao-protocolo.md) - Fluxo do protocolo
-- [guia-execucao.md](guia-execucao.md) - Guia detalhado de execução
-
+💕
